@@ -2,7 +2,7 @@ import {useState} from 'react';
 function App() {
   let[counter,setcounter]=useState(14);
  
-  const addvalue=()=>{
+  const addvalu=()=>{
     console.log("value added",counter);
     if(counter==20)
       counter=19;
@@ -22,7 +22,7 @@ function App() {
     <>
     <h1>Chai aur react</h1>
     <h2>Counter value:{counter}</h2>
-    <button onClick={addvalue}>Add value</button>
+    <button onClick={addvalu}>Add value</button>
     <br/>
     <button onClick={removvalue}>remove value</button>
      
